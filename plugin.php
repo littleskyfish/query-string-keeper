@@ -14,18 +14,17 @@ yourls_add_filter('redirect_location', 'qs_keeper_redirect' );
 // Our custom function that will be triggered when the event occurs
 function qs_keeper_redirect($url) {
 
-$query = getServerQueryString();
+    $query = getServerQueryString();
     if (isset($query)) {
-if (strpos($url, '?') !== false) {
-$query = '&'.$query;
-}else {
-$query = '?'.$query;
-}
-return $url.$query;
+        if (strpos($url, '?') !== false) {
+            $query = '&'.$query;
+        }else {
+            $query = '?'.$query;
+        }
+        return $url.$query;
     }else {
-return $url;
+        return $url;
     }
-
 }
 function getServerQueryString()
 {
