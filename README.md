@@ -1,5 +1,5 @@
 # query-string-keeper
-Query String Keeper plugin for YOURLS - Tested on YOURLS version 1.8.3 and php version 8.0.12.
+Query String Keeper plugin for YOURLS - tested on YOURLS version 1.8.3 and php version 8.0.12.
 
 Description
 -----------
