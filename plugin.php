@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: query-string-keeper
+Plugin Name: Query-String-Keeper
 Plugin URI: https://github.com/littleskyfish/query-string-keeper
 Description: With this plugin, add a query string to the short URL and it will be included in the long url.
 Version: 1.1
