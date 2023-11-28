@@ -38,5 +38,5 @@ Other/References
 ----------------
 This plugin adapted from the Query String Keeper plugin by [jessemaps](https://github.com/jessemaps/yourls-query-string-keeper).
 Solved the problem <PHP v7 for some reason does not return any value in $_SERVER['QUERY_STRING']>.
-Thanks for [skarjoss's commented](https://github.com/jessemaps/yourls-query-string-keeper/issues/1#issuecomment-1039690531). 
+Thanks for [skarjoss's comment](https://github.com/jessemaps/yourls-query-string-keeper/issues/1#issuecomment-1039690531). 
 
